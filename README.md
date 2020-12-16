@@ -1,6 +1,6 @@
 # Philips Hue Desktop Controller
 
-A Graphical User Interface (GUI) that allows you to control Philips Hue 
+An application that allows you to control Philips Hue 
 light bulbs from your laptop/desktop.
 
 The primary way to control Philips Hue light bulbs is through their mobile app.
