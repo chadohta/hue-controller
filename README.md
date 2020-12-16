@@ -38,19 +38,23 @@ both can be found here [Philips Hue API](https://developers.meethue.com/develop/
 Instead of opening the program in an IDE everytime you wanted to change your lights you can create 
 a desktop shortcut that will run the java program with a simple double-click.
 
-1. After compiling the program, navigate to the directory that contains the Controller.class file. Note that
-   this is different from the Controller.java file. Create a manifest file called controller.mf that contains 
-   the following:
+1. After compiling the program, navigate to the directory that contains the **compiled** controller package folder. 
+   In this directory create a manifest file called controller.mf that contains the following:
    ```
    Manifest-Version: 1.0
-   Main-Class: Controller
+   Main-Class: controller.Main
    ```
 
-2. In the command line navigate to the directory that contains the Controller.class and controller.mf file.
+2. In the command line navigate to the same directory that you just created the controller.mf file in.
 Create a .jar file by executing the following command:
    ```
-   jar cfm controller.jar controller.mf *.class
+   jar cfm controller.jar controller.mf controller
    
+   ```
+   
+4. After the controller.jar is created, run it by executing the following command:
+   ```
+   java -jar controller.jar
    ```
 
 3. Use Windows Explorer or macOS Finder to locate your project repo. Find the controller.jar file. 
