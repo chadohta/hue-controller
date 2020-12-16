@@ -19,7 +19,7 @@ both can be found here [Philips Hue API](https://developers.meethue.com/develop/
    
 2. Clone this repo to your local machine using
     ```
-    git clone ... 
+    git clone https://github.com/chadohta/philips-hue-gui.git
     ```
    
 3. In the Controller class change the final variables to your bridge's IP address and user ID obtained in step one
