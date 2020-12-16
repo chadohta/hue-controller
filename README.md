@@ -1,7 +1,7 @@
 # Philips Hue Desktop Controller
 
 A Graphical User Interface (GUI) that allows you to control Philips Hue 
-light bulbs from your Laptop/Desktop.
+light bulbs from your laptop/desktop.
 
 The primary way to control Philips Hue light bulbs is through their mobile app.
 I often leave my phone charging away from my desk, and so I built this application 
@@ -11,7 +11,7 @@ to control my lights without having to get up 😄
 
 ## Usage
 
-In order for this application to work your Laptop/Desktop must be connected to the same
+In order for this application to work your computer must be connected to the same
 network as your Philips Hue bridge.
 
 1. Obtain your bridge IP address and create an authorized user. Instructions on how to do 
